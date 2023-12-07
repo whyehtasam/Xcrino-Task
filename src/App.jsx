@@ -2,6 +2,10 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
+import Intro from './components/Intro'
+import Footer from './components/Footer'
+
+
 import kids from './assets/images/Kids.png'
 import VectorPink from './assets/images/VectorPink.svg'
 import VectorBrown from './assets/images/VectorBrown.svg'
@@ -21,6 +25,8 @@ function App() {
 
       <Navbar />
       <Landing />
+      <Intro className='Intro' />
+      <Footer />
 
       {/* Components End*/}
 

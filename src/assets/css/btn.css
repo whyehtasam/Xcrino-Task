@@ -11,5 +11,5 @@ button {
     outline: none;
     width: 160px;
     height: 45px;
-    margin: auto;
+    /* margin: auto; */
 }
