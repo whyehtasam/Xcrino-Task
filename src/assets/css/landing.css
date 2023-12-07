@@ -1,0 +1,65 @@
+.landing {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4rem 10rem 0 0;
+}
+
+.landing-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: min-content;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: 400;
+    color: #845a4e;
+    font-size: 335px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 386.6px;
+    white-space: nowrap;
+}
+
+.text-wrapper {
+    font-family: 'Gochi Hand', cursive;
+    width: fit-content;
+    font-weight: 400;
+    color: #845a4e;
+    font-size: 335px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 386.6px;
+    white-space: nowrap;
+
+}
+
+.TOYS-GAMES-STORE {
+    
+    font-family: 'Baloo 2', sans-serif;
+    width: fit-content;
+    font-weight: 600;
+    color: #a47e75;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 70px;
+    white-space: nowrap;
+    margin-top: -5rem;
+    padding: 0.6rem 0;
+}
+
+.p-text-wrapper {
+
+    width: fit-content;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    color: #534947;
+    font-size: 20.7px;
+    letter-spacing: 0.41px;
+    line-height: 26.9px;
+    white-space: nowrap;
+}
+Button{
+    margin: 1.5rem 0;
+}

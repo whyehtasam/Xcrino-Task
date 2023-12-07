@@ -1,0 +1,15 @@
+button {
+    font-family: 'Baloo 2', sans-serif;
+    /* padding: 4px 2rem; */
+    border-radius: 18px;
+    background: #332623;
+    color: #FFE1CC;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    outline: none;
+    width: 160px;
+    height: 45px;
+    margin: auto;
+}

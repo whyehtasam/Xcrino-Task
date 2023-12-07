@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+ 
+
+
+}
+
+.kids {
+  position: absolute;
+  top: 156px;
+  left: 190px;
+}
+
+.vector-pink {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+}
+
+.vector-brown {
+  position: absolute;
+  bottom: 1px;
+  z-index: -2;
+}
+
+.vector-dark-pink {
+  position: absolute;
+  bottom: 0;
+  left: 183px;
+  z-index: -2;
+}
+
+.leaf{
+  position: absolute;
+  left: 0;
+  bottom: -27px;
+}
+
+.curve-wire-1{
+
+  position: absolute;
+  top: 157px;
+}
+.curve-wire-2{
+
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  rotate: 180deg;
+}
+
+.leaf-wire {
+  position: absolute;
+  bottom: 29px;
+  left: -7px;
+  z-index: -1;
+}
