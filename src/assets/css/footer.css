@@ -2,7 +2,7 @@
 .footer {
     display: flex;
     flex-direction: column;
-    width: 1560px;
+    /* width: 1560px; */
     height: 579.79px;
     align-items: center;
     gap: 208px;
