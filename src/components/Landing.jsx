@@ -1,5 +1,6 @@
 import '../assets/css/landing.css';
-import Button from './Button';
+import Button from './Button/Button';
+// import styles from '../assets/css/btn.module.css';
 
 const Landing = () => {
 
@@ -11,7 +12,7 @@ const Landing = () => {
                 <div className="text-wrapper">Kids</div>
                 <div className="TOYS-GAMES-STORE">TOYS &amp; GAMES STORE</div>
                 <p className="p-text-wrapper">Explore Limited Edition Merchandise and Exclusive Offers</p>
-                <Button text='BUY NOW' className='btn'/>
+                <Button >BUY NOW</Button>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import Landing from './components/Landing'
 import Intro from './components/Intro'
 import Footer from './components/Footer'
 
-
+import Card from './components/Card'
 import kids from './assets/images/Kids.png'
 import VectorPink from './assets/images/VectorPink.svg'
 import VectorBrown from './assets/images/VectorBrown.svg'
@@ -26,6 +26,8 @@ function App() {
       <Navbar />
       <Landing />
       <Intro className='Intro' />
+      <Card />
+
       <Footer />
 
       {/* Components End*/}
@@ -39,6 +41,7 @@ function App() {
       <img src={LeafWire} alt="leaf-wire" className='leaf-wire' />
       <img src={CurveWire} alt="curve-wire-1" className='curve-wire-1' />
       <img src={CurveWire} alt="curve-wire-2" className='curve-wire-2' />
+      
 
       {/* end */}
 

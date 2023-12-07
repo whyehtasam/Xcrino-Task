@@ -15,6 +15,7 @@ ul {
     justify-content: flex-end;
     gap: 99px;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .nav-list-items {

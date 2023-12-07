@@ -1,7 +1,8 @@
 
-import React from 'react';
+// import React from 'react';
 import '../assets/css/Intro.css'
-import Button from './Button';
+import Button from './Button/Button';
+// import styles from '../assets/css/btn.module.css';
 
 
 const Intro = () => {
@@ -14,7 +15,7 @@ const Intro = () => {
           Discover a treasure trove of limited edition merchandise, from adorable plush toys to stylish accessories.<br></br>
           Explore our "Made to Order" and "Ltd. Merchandise" collections, where each item is crafted with precision and care. Indulge in the nostalgia of "Restock" favorites and stay ahead of trends with the latest releases in the "Released in December" category....</p>
           
-        <Button className='readMoreBtn' text='Read more' />
+        <Button className='readMore'> Read More</Button>
       </div>
     </>
   );

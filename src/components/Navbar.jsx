@@ -1,7 +1,8 @@
 // import React from 'react';
 import '../assets/css/navbar.css';
 import logo from '../assets/images/logo.png';
-import Button from './Button';
+import Button from './Button/Button';
+// import styles from '../assets/css/btn.module.css';
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
                     <li className='nav-list-items'>ORDERS</li>
                     <li className='nav-list-items'>TRACK</li>
                     <li className='nav-list-items'>CONTACT</li>
-                    <li className='nav-list-items'><Button text='SIGNUP' /></li>
+                    <li className='nav-list-items'><Button > SIGNUP</Button></li>
                     
                 </ul>
             </nav>
